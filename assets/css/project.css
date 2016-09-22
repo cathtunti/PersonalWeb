@@ -1,0 +1,21 @@
+/* Link */
+
+	a {
+		border-bottom: initial;
+	}
+
+/*	ul {
+		margin: 0 0 0.em 0;
+	}*/
+/* Large */
+
+	@media screen and (max-width: 1680px) {
+
+		/* Basic */
+
+			html {
+				overflow-y: initial;
+			}
+	}
+
+

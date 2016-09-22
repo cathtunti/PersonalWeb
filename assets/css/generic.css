@@ -1,0 +1,30 @@
+/* Pictures */
+
+	.article_pic {
+		display: flex;
+		flex-wrap: wrap;
+		position: relative;
+	}
+
+	.article_pic .half_size_pic {
+		display: block;
+		width: calc(50% - 1em);
+		margin: 0.5em;
+		position: relative;
+	}
+
+	.half_size_pic img{
+			width: 100%;
+		}
+
+/* Large */
+
+	@media screen and (max-width: 1680px) {
+
+		/* Basic */
+
+			html {
+				overflow-y: initial;
+			}
+	}
+
